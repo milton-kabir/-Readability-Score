@@ -9,8 +9,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        String path="/home/drifter/Downloads/dataset_91065.txt";
-//        String path=args[0];
+        String path=args[0];
         File file = new File(path);
         String arr="";
         try (Scanner sc = new Scanner(file)) {
