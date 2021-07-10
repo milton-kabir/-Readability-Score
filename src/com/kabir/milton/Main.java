@@ -1,5 +1,4 @@
 package com.kabir.milton;
-//package readability;
 import java.io.File;
 import java.io.IOException;
 import java.text.DecimalFormat;
