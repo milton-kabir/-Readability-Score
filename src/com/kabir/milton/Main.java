@@ -8,7 +8,9 @@ public class Main {
 	// write your code here
         Scanner sc=new Scanner(System.in);
         String st=sc.nextLine();
-        if(st.length()>100){
+        int y =st.split("[.!?]+").length;
+        int x=st.split(" ").length;
+        if(x>10*y){
             System.out.println("HARD");
         }
         else{
